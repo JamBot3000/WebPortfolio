@@ -16,7 +16,7 @@ export default function ParticlesBackground() {
       loaded={particlesLoaded}
       options={{
         background: {
-          color: "##2b2d42",
+          color: "#2b2d42",
           position: "center",
           repeat: "no-repeat",
         },

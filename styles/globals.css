@@ -990,7 +990,8 @@
     cursor: pointer;
   }
   .nav__list .nav__item .nav__link:hover {
-    color: #edf2f4;
+    /* color: #edf2f4; */
+    font-size: 25px;
   }
   .nav__list .nav__item .nav__link.active-link::after {
     content: "";
@@ -1637,6 +1638,7 @@
   .c-hero__inner {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 }
 @media only all and (max-width: 768px) {
@@ -1660,7 +1662,6 @@
   .c-hero__left {
     max-width: 510px;
     padding-right: 20px;
-    margin-right: auto;
   }
 }
 @media only all and (max-width: 768px) {

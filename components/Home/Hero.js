@@ -35,7 +35,7 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div class="c-hero__right">
+              {/* <div class="c-hero__right">
                 <div class="c-hero__image">
                   <img
                     alt=""
@@ -44,7 +44,7 @@ const Hero = () => {
                     src="https://cdn.discordapp.com/attachments/984153596973174874/992900360958115860/unknown.png"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
