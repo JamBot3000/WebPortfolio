@@ -8,12 +8,12 @@ const Header = () => {
   };
 
   return (
-    <header class="c-header">
-      <div class="container">
-        <div class="row">
-          <div class="c-header__inner">
-            <div class="logo">
-              <a class="logo__link" href="/">
+    <header className="c-header">
+      <div className="container">
+        <div className="row">
+          <div className="c-header__inner">
+            <div className="logo">
+              <a className="logo__link" href="">
                 {" "}
                 JamBot 3000{" "}
               </a>
@@ -21,79 +21,79 @@ const Header = () => {
 
             {/* for mobile add is-open class */}
             <nav className={isActive ? "main-nav is-open" : "main-nav"}>
-              <div class="main-nav__box">
-                <div onClick={handleDropDown} class="nav__icon-close">
-                  <i class="ion ion-md-close"></i>
+              <div className="main-nav__box">
+                <div onClick={handleDropDown} className="nav__icon-close">
+                  <i className="ion ion-md-close"></i>
                 </div>
 
-                <div class="nav__title">Menu</div>
+                <div className="nav__title">Menu</div>
 
-                <ul class="nav__list list-reset">
-                  <li class="nav__item">
-                    <a class="nav__link active-link" href="/">
+                <ul className="nav__list list-reset">
+                  <li className="nav__item">
+                    <a className="nav__link active-link" href="">
                       Home
                     </a>
                   </li>
 
-                  <li class="nav__item">
-                    <a class="nav__link" href="">
+                  <li className="nav__item">
+                    <a className="nav__link" href="">
                       Portfolio
                     </a>
                   </li>
 
-                  <li class="nav__item">
-                    <a class="nav__link" href="">
+                  <li className="nav__item">
+                    <a className="nav__link" href="">
                       Blog
                     </a>
                   </li>
 
-                  <li class="nav__item">
-                    <a class="nav__link" href="">
+                  <li className="nav__item">
+                    <a className="nav__link" href="">
                       About
                     </a>
                   </li>
 
-                  <li class="nav__item">
-                    <a class="nav__link" href="">
+                  <li className="nav__item">
+                    <a className="nav__link" href="">
                       Contact
                     </a>
                   </li>
                 </ul>
               </div>
 
-              <div class="social">
-                <ul class="social__list list-reset">
-                  <li class="social__item">
+              <div className="social">
+                <ul className="social__list list-reset">
+                  <li className="social__item">
                     <a
                       aria-label="instagram icon"
-                      class="social__link"
+                      className="social__link"
                       href="https://instagram.com/"
-                      rel="noopener"
+                      rel="noreferrer"
                       target="_blank"
                     >
-                      <i class="ion ion-logo-instagram"></i>
+                      <i className="ion ion-logo-instagram"></i>
                     </a>
                   </li>
 
-                  <li class="social__item">
+                  <li className="social__item">
                     <a
                       aria-label="github icon"
-                      class="social__link"
+                      className="social__link"
                       href="https://github.com"
-                      rel="noopener"
+                      rel="noreferrer"
                       target="_blank"
                     >
-                      <i class="ion ion-logo-github"></i>
+                      <i className="ion ion-logo-github"></i>
                     </a>
                   </li>
                 </ul>
               </div>
             </nav>
 
-            <div class="nav-button">
+            <div className="nav-button">
               <i
                 onClick={handleDropDown}
-                class="nav__icon nav__icon-menu ion ion-md-menu"
+                className="nav__icon nav__icon-menu ion ion-md-menu"
               ></i>
             </div>
           </div>

@@ -1,26 +1,26 @@
 const Contact = () => {
   return (
-    <div class="c-contact-form" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col col-12">
-            <div class="c-contact-form__form-box">
-              <div class="c-contact-form__contact-head">
-                <h2 class="c-contact-form__contact-title">Get in touch</h2>
-                <p class="c-contact-form__contact-description">
+    <div className="c-contact-form" id="contact">
+      <div className="container">
+        <div className="row">
+          <div className="col col-12">
+            <div className="c-contact-form__form-box">
+              <div className="c-contact-form__contact-head">
+                <h2 className="c-contact-form__contact-title">Get in touch</h2>
+                <p className="c-contact-form__contact-description">
                   Feel free to contact me for any reason
                 </p>
               </div>
-              <form action="#" class="c-contact-form__form" method="POST">
-                <div class="c-contact-form__form-group">
+              <form action="#" className="c-contact-form__form" method="POST">
+                <div className="c-contact-form__form-group">
                   <label
-                    class="c-contact-form__form-label screen-reader-text"
-                    for="form-name"
+                    className="c-contact-form__form-label screen-reader-text"
+                    htmlFor="form-name"
                   >
                     Your Name
                   </label>
                   <input
-                    class="c-contact-form__form-input"
+                    className="c-contact-form__form-input"
                     id="form-name"
                     name="name"
                     placeholder="Your name..."
@@ -28,15 +28,15 @@ const Contact = () => {
                     type="text"
                   />
                 </div>
-                <div class="c-contact-form__form-group">
+                <div className="c-contact-form__form-group">
                   <label
-                    class="c-contact-form__form-label screen-reader-text"
-                    for="form-email"
+                    className="c-contact-form__form-label screen-reader-text"
+                    htmlFor="form-email"
                   >
                     Your Email
                   </label>
                   <input
-                    class="c-contact-form__form-input"
+                    className="c-contact-form__form-input"
                     id="form-email"
                     name="_replyto"
                     placeholder="Your email..."
@@ -44,15 +44,15 @@ const Contact = () => {
                     type="email"
                   />
                 </div>
-                <div class="c-contact-form__form-group">
+                <div className="c-contact-form__form-group">
                   <label
-                    class="c-contact-form__form-label screen-reader-text"
-                    for="form-text"
+                    className="c-contact-form__form-label screen-reader-text"
+                    htmlFor="form-text"
                   >
                     Your Message
                   </label>
                   <textarea
-                    class="c-contact-form__form-input"
+                    className="c-contact-form__form-input"
                     id="form-text"
                     name="text"
                     placeholder="Your message..."
@@ -60,9 +60,9 @@ const Contact = () => {
                     rows="9"
                   ></textarea>
                 </div>
-                <div class="c-contact-form__form-group c-contact-form__form-group--button">
+                <div className="c-contact-form__form-group c-contact-form__form-group--button">
                   <button
-                    class="c-button c-button--contact c-button--large"
+                    className="c-button c-button--contact c-button--large"
                     type="submit"
                   >
                     Send now

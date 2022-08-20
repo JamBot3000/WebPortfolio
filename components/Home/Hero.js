@@ -1,33 +1,51 @@
+import React, { useRef, useEffect } from "react";
+import { init } from "ityped";
+
 const Hero = () => {
+  const textRef = useRef(null);
+
+  useEffect(() => {
+    init(textRef?.current, {
+      backDelay: 1000,
+      showCursor: true,
+      typeSpeed: 20,
+      strings: ["Jamie Davies"],
+      placeholder: true,
+    });
+  }, []);
+
   return (
-    <section class="c-hero animate">
-      <div class="container">
-        <div class="row">
-          <div class="col col-12">
-            <div class="c-hero__inner">
-              <div class="c-hero__left">
-                <h1 class="c-hero__title">Hello, I'm Jamie Davies</h1>
-                <div class="c-hero__description">
+    <section className="c-hero animate">
+      <div className="container">
+        <div className="row">
+          <div className="col col-12">
+            <div className="c-hero__inner">
+              <div className="c-hero__left">
+                <h1 className="c-hero__title">
+                  Hello, I{"'"}m <span ref={textRef}></span>
+                </h1>
+                <div className="c-hero__description">
                   <p>
                     <strong>Coder</strong>, <strong>CyberSec Nerd</strong>, and{" "}
-                    <strong>Drummer</strong> from Liverpool, UK. Right now I'm
-                    working on a few personal projects to help me learn Next.JS
+                    <strong>Drummer</strong> from Liverpool, UK. Right now I
+                    {"'"}m working on a few personal projects to help me learn
+                    Next.JS
                   </p>
                 </div>
 
-                <div class="c-hero__btn">
+                <div className="c-hero__btn">
                   <a
-                    class="cta-button c-button c-button--primary c-button--small"
+                    className="cta-button c-button c-button--primary c-button--small"
                     href="#contact"
                   >
                     Get in touch
                   </a>
                   <a
-                    class="works-button c-button c-button--secondary c-button--small"
+                    className="works-button c-button c-button--secondary c-button--small"
                     href="#portfolio"
                   >
-                    <span class="circle-bg">
-                      <i class="ion ion-md-arrow-down button-arrow"></i>
+                    <span className="circle-bg">
+                      <i className="ion ion-md-arrow-down button-arrow"></i>
                     </span>
                     Check out my projects
                   </a>

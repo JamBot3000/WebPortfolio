@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Jamie's Site</title>
+        <title>Jamie{"'"}s Site</title>
         <meta
           name="Jamie's Site"
           content="Jamie's Software Development Portfolio"
