@@ -1504,6 +1504,12 @@
   .c-button:active {
     transform: translateY(2px) scale(0.98);
   }
+
+  c-button--contact {
+    color: linear-gradient(90deg, #ef233c 0, #d80032 167%);
+    background: white;
+  }
+
   .c-button--primary {
     color: #fff;
     background: linear-gradient(90deg, #ef233c 0, #d80032 167%);
@@ -1547,9 +1553,12 @@
     position: relative;
   }
   .c-contact-form__form-box {
-    max-width: 580px;
+    max-width: 700px;
     margin: 0 auto;
-    padding-top: 140px;
+
+    border-radius: 15px;
+    background: linear-gradient(90deg, #ef233c 0, #d80032 167%);
+    padding: 10px;
   }
   .c-contact-form__contact-head {
     margin-bottom: 48px;
@@ -1576,6 +1585,8 @@
     margin-bottom: 60px;
   }
   .c-contact-form__form-group {
+    margin-right: 40px;
+    margin-left: 40px;
     margin-bottom: 20px;
     font-size: 0;
   }
@@ -1634,6 +1645,20 @@
     padding: 30px 0 60px;
   }
 }
+
+@media only all and (max-width: 768px) {
+  .c-contact-form__form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+@media only all and (max-width: 576px) {
+  .c-contact-form__form-group {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
 @media all, bookshop {
   .c-hero__inner {
     display: flex;
@@ -1646,21 +1671,12 @@
     flex-direction: column;
   }
 }
-@media all, bookshop {
-  .c-hero__left,
-  .c-hero__right {
-    width: 50%;
-  }
-}
+
 @media only all and (max-width: 768px) {
-  .c-hero__left,
-  .c-hero__right {
-    width: 100%;
-  }
 }
 @media all, bookshop {
   .c-hero__left {
-    max-width: 510px;
+    max-width: 630px;
     padding-right: 20px;
   }
 }
@@ -1719,7 +1735,7 @@
 @media all, bookshop {
   .c-hero__title {
     margin-bottom: 20px;
-    font-size: 58px;
+    font-size: 72px;
     color: white;
   }
 }
@@ -1730,7 +1746,7 @@
 }
 @media only all and (max-width: 1024px) {
   .c-hero__title {
-    font-size: 38px;
+    font-size: 60px;
     margin-bottom: 24px;
   }
 }
@@ -1742,7 +1758,7 @@
 @media all, bookshop {
   .c-hero__description p {
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.6;
     color: white;
   }

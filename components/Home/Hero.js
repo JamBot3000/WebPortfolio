@@ -10,9 +10,8 @@ const Hero = () => {
                 <div class="c-hero__description">
                   <p>
                     <strong>Coder</strong>, <strong>CyberSec Nerd</strong>, and{" "}
-                    <strong>Drummer</strong> from Liverpool, UK. Currently
-                    working on a few software development projects and learning
-                    Next.js
+                    <strong>Drummer</strong> from Liverpool, UK. Right now I'm
+                    working on a few personal projects to help me learn Next.JS
                   </p>
                 </div>
 

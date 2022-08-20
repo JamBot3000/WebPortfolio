@@ -9,7 +9,11 @@ const Projects = () => {
                 <div class="section__head">
                   <h2 class="section__title">My Projects</h2>
                   <a class="section__link" href="blog.html">
-                    View all <i class="ion ion-md-arrow-forward"></i>
+                    View all{" "}
+                    <i
+                      class="ion ion-md-arrow-forward"
+                      style={{ color: "black" + "!important" }}
+                    ></i>
                   </a>
                 </div>
                 <div class="section__description">

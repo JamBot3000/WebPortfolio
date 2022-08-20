@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div class="c-contact-form__form-group c-contact-form__form-group--button">
                   <button
-                    class="c-button c-button--primary c-button--large"
+                    class="c-button c-button--contact c-button--large"
                     type="submit"
                   >
                     Send now
