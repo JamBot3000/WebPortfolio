@@ -1557,7 +1557,6 @@
     margin: 0 auto;
 
     border-radius: 15px;
-    background: linear-gradient(90deg, #ef233c 0, #d80032 167%);
     padding: 10px;
   }
   .c-contact-form__contact-head {
@@ -1607,8 +1606,10 @@
     background: #fff;
   }
   .c-contact-form__form-input::placeholder {
-    font-weight: 500;
-    color: rgba(17, 14, 56, 0.3);
+    /* font-weight: 500;
+    color: rgba(68, 68, 80, 0.3); */
+    color: black;
+    opacity: 0.4;
   }
   .c-contact-form__form-input:focus {
     border-color: #1495a7;
