@@ -632,7 +632,7 @@
     font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.8;
-    color: #8d99ae;
+    color: white;
     background-color: #2b2d42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -712,7 +712,7 @@
 @media all, bookshop {
   a {
     text-decoration: none;
-    color: #8d99ae;
+    color: white;
     transition: all 0.35s;
   }
   .table-container {
@@ -1720,7 +1720,7 @@
   .c-hero__title {
     margin-bottom: 20px;
     font-size: 58px;
-    color: #8d99ae;
+    color: white;
   }
 }
 @media only all and (max-width: 1130px) {
@@ -1744,7 +1744,7 @@
     margin-bottom: 0;
     font-size: 18px;
     line-height: 1.6;
-    color: #8d99ae;
+    color: white;
   }
 }
 @media only all and (max-width: 1024px) {

@@ -13,7 +13,7 @@ const Header = () => {
         <div class="row">
           <div class="c-header__inner">
             <div class="logo">
-              <a class="logo__link" href="index.html">
+              <a class="logo__link" href="/">
                 {" "}
                 JamBot 3000{" "}
               </a>
@@ -30,26 +30,32 @@ const Header = () => {
 
                 <ul class="nav__list list-reset">
                   <li class="nav__item">
-                    <a class="nav__link active-link" href="index.html">
+                    <a class="nav__link active-link" href="/">
                       Home
                     </a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="projects/index.html">
-                      Projects
+                    <a class="nav__link" href="">
+                      Portfolio
                     </a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="blog/index.html">
+                    <a class="nav__link" href="">
                       Blog
                     </a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link" href="about/index.html">
+                    <a class="nav__link" href="">
                       About
+                    </a>
+                  </li>
+
+                  <li class="nav__item">
+                    <a class="nav__link" href="">
+                      Contact
                     </a>
                   </li>
                 </ul>

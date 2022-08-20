@@ -25,7 +25,7 @@ const Hero = () => {
                   </a>
                   <a
                     class="works-button c-button c-button--secondary c-button--small"
-                    href="#projects"
+                    href="#portfolio"
                   >
                     <span class="circle-bg">
                       <i class="ion ion-md-arrow-down button-arrow"></i>
