@@ -8,13 +8,13 @@ const Footer = () => {
               <ul class="social__list list-reset">
                 <li class="social__item">
                   <a
-                    aria-label="twitter icon"
+                    aria-label="instagram icon"
                     class="social__link"
-                    href="https://twitter.com/"
+                    href="https://instagram.com/"
                     rel="noopener"
                     target="_blank"
                   >
-                    <i class="ion ion-logo-twitter"></i>
+                    <i class="ion ion-logo-instagram"></i>
                   </a>
                 </li>
 
@@ -22,35 +22,11 @@ const Footer = () => {
                   <a
                     aria-label="github icon"
                     class="social__link"
-                    href="https://github.com/"
+                    href="https://github.com"
                     rel="noopener"
                     target="_blank"
                   >
                     <i class="ion ion-logo-github"></i>
-                  </a>
-                </li>
-
-                <li class="social__item">
-                  <a
-                    aria-label="pinterest icon"
-                    class="social__link"
-                    href="https://pinterest.com/"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    <i class="ion ion-logo-pinterest"></i>
-                  </a>
-                </li>
-
-                <li class="social__item">
-                  <a
-                    aria-label="youtube icon"
-                    class="social__link"
-                    href="https://youtube.com/"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    <i class="ion ion-logo-youtube"></i>
                   </a>
                 </li>
               </ul>
@@ -58,26 +34,31 @@ const Footer = () => {
 
             <ul class="footer_nav list-reset">
               <li class="footer_nav__item">
-                <a class="footer_nav__link" href="index.html">
+                <a class="footer_nav__link" href="">
                   Home
                 </a>
               </li>
 
               <li class="footer_nav__item">
-                <a class="footer_nav__link" href="projects/index.html">
-                  Projects
+                <a class="footer_nav__link" href="">
+                  Portfolio
                 </a>
               </li>
 
               <li class="footer_nav__item">
-                <a class="footer_nav__link" href="about/index.html">
+                <a class="footer_nav__link" href="">
+                  Blog
+                </a>
+              </li>
+
+              <li class="footer_nav__item">
+                <a class="footer_nav__link" href="">
                   About
                 </a>
               </li>
-
               <li class="footer_nav__item">
-                <a class="footer_nav__link" href="blog/index.html">
-                  Blog
+                <a class="footer_nav__link" href="">
+                  Contact
                 </a>
               </li>
             </ul>

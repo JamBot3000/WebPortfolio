@@ -5,7 +5,7 @@ const Top = () => {
   const [isActive, setIsActive] = useState(false);
 
   function scrolled(scrollY, innerHeight) {
-    scrollY > innerHeight ? setIsActive(true) : setIsActive(false);
+    scrollY > innerHeight / 3 ? setIsActive(true) : setIsActive(false);
   }
 
   useEffect(() => {

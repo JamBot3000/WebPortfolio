@@ -65,13 +65,13 @@ const Header = () => {
                 <ul class="social__list list-reset">
                   <li class="social__item">
                     <a
-                      aria-label="twitter icon"
+                      aria-label="instagram icon"
                       class="social__link"
-                      href="https://twitter.com/"
+                      href="https://instagram.com/"
                       rel="noopener"
                       target="_blank"
                     >
-                      <i class="ion ion-logo-twitter"></i>
+                      <i class="ion ion-logo-instagram"></i>
                     </a>
                   </li>
 
@@ -79,35 +79,11 @@ const Header = () => {
                     <a
                       aria-label="github icon"
                       class="social__link"
-                      href="https://github.com/"
+                      href="https://github.com"
                       rel="noopener"
                       target="_blank"
                     >
                       <i class="ion ion-logo-github"></i>
-                    </a>
-                  </li>
-
-                  <li class="social__item">
-                    <a
-                      aria-label="pinterest icon"
-                      class="social__link"
-                      href="https://pinterest.com/"
-                      rel="noopener"
-                      target="_blank"
-                    >
-                      <i class="ion ion-logo-pinterest"></i>
-                    </a>
-                  </li>
-
-                  <li class="social__item">
-                    <a
-                      aria-label="youtube icon"
-                      class="social__link"
-                      href="https://youtube.com/"
-                      rel="noopener"
-                      target="_blank"
-                    >
-                      <i class="ion ion-logo-youtube"></i>
                     </a>
                   </li>
                 </ul>
