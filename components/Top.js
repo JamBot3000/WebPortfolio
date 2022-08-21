@@ -26,7 +26,10 @@ const Top = () => {
       className={isActive ? "top is-active" : "top"}
       title="Top"
     >
-      <i className="ion ion-ios-arrow-up"></i>
+      <i
+        className="ion ion-ios-arrow-up"
+        style={{ color: "black" + "!important" }}
+      ></i>
     </div>
   );
 };

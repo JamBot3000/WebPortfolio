@@ -12,7 +12,7 @@ const Projects = () => {
                     View all{" "}
                     <i
                       className="ion ion-md-arrow-forward"
-                      style={{ color: "black" + "!important" }}
+                      style={{ color: "black !important" }}
                     ></i>
                   </a>
                 </div>

@@ -1,19 +1,6 @@
-import React, { useRef, useEffect } from "react";
-import { init } from "ityped";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
-  const textRef = useRef(null);
-
-  useEffect(() => {
-    init(textRef?.current, {
-      backDelay: 1000,
-      showCursor: true,
-      typeSpeed: 10,
-      strings: ["Jamie Davies", "test"],
-      placeholder: true,
-    });
-  }, []);
-
   return (
     <section className="c-hero animate">
       <div className="container">
@@ -22,7 +9,8 @@ const Hero = () => {
             <div className="c-hero__inner">
               <div className="c-hero__left">
                 <h1 className="c-hero__title">
-                  Hello, I{"'"}m <span ref={textRef}></span>
+                  Hello, I{"'"}m{" "}
+                  <span className={styles.typed}>Jamie Davies</span>
                 </h1>
                 <div className="c-hero__description">
                   <p>

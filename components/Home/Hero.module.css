@@ -1,0 +1,14 @@
+.typed {
+  animation: blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 10px;
+  border-right: 6px solid;
+  border-color: red;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
