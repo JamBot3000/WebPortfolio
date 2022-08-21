@@ -5,7 +5,7 @@ const Top = () => {
   const [isActive, setIsActive] = useState(false);
 
   function scrolled(scrollY, innerHeight) {
-    scrollY > innerHeight ? setIsActive(true) : setIsActive(false);
+    scrollY > innerHeight / 3 ? setIsActive(true) : setIsActive(false);
   }
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const Top = () => {
       className={isActive ? "top is-active" : "top"}
       title="Top"
     >
-      <i class="ion ion-ios-arrow-up"></i>
+      <i className="ion ion-ios-arrow-up"></i>
     </div>
   );
 };

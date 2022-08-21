@@ -1,18 +1,22 @@
 const Projects = () => {
   return (
-    <section class="section projects" id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="col col-12">
-            <div class="contaniner__inner animate">
-              <div class="section__info">
-                <div class="section__head">
-                  <h2 class="section__title">My Projects</h2>
-                  <a class="section__link" href="blog.html">
-                    View all <i class="ion ion-md-arrow-forward"></i>
+    <section className="section projects" id="portfolio">
+      <div className="container">
+        <div className="row">
+          <div className="col col-12">
+            <div className="contaniner__inner animate">
+              <div className="section__info">
+                <div className="section__head">
+                  <h2 className="section__title">My Projects</h2>
+                  <a className="section__link" href="blog.html">
+                    View all{" "}
+                    <i
+                      className="ion ion-md-arrow-forward"
+                      style={{ color: "black" + "!important" }}
+                    ></i>
                   </a>
                 </div>
-                <div class="section__description">
+                <div className="section__description">
                   <p>
                     A colletion of some of my software related projects. All of
                     these projects are <strong>open source</strong>, so feel
@@ -21,12 +25,12 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div class="row">
-                <div class="c-blog-card col col-4 col-d-6 col-t-12">
-                  <div class="c-blog-card__inner">
-                    <div class="c-blog-card__image-wrap">
+              <div className="row">
+                <div className="c-blog-card col col-4 col-d-6 col-t-12">
+                  <div className="c-blog-card__inner">
+                    <div className="c-blog-card__image-wrap">
                       <a
-                        class="c-blog-card__image"
+                        className="c-blog-card__image"
                         href="blog/that-which-does-not-kill-us-makes-us-stronger.html"
                       >
                         <img
@@ -38,24 +42,27 @@ const Projects = () => {
                       </a>
                     </div>
 
-                    <div class="c-blog-card__content">
-                      <div class="c-blog-card__tags-box">
-                        <a class="c-blog-card__tag" href="tag/travel.html">
+                    <div className="c-blog-card__content">
+                      <div className="c-blog-card__tags-box">
+                        <a className="c-blog-card__tag" href="tag/travel.html">
                           travel
                         </a>
 
-                        <a class="c-blog-card__tag" href="tag/lifestyle.html">
+                        <a
+                          className="c-blog-card__tag"
+                          href="tag/lifestyle.html"
+                        >
                           lifestyle
                         </a>
                       </div>
 
-                      <h2 class="c-blog-card__title">
+                      <h2 className="c-blog-card__title">
                         <a href="blog/that-which-does-not-kill-us-makes-us-stronger.html">
                           That which does not kill us makes us stronger
                         </a>
                       </h2>
 
-                      <p class="c-blog-card__excerpt">
+                      <p className="c-blog-card__excerpt">
                         Bring to the table win-win survival strategies to ensure
                         proactive domination. At the end of the day, going
                         forward.
@@ -64,11 +71,11 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div class="c-blog-card col col-4 col-d-6 col-t-12">
-                  <div class="c-blog-card__inner">
-                    <div class="c-blog-card__image-wrap">
+                <div className="c-blog-card col col-4 col-d-6 col-t-12">
+                  <div className="c-blog-card__inner">
+                    <div className="c-blog-card__image-wrap">
                       <a
-                        class="c-blog-card__image"
+                        className="c-blog-card__image"
                         href="blog/do-what-you-can-with-what-you-have-where-you-are.html"
                       >
                         <img
@@ -80,24 +87,24 @@ const Projects = () => {
                       </a>
                     </div>
 
-                    <div class="c-blog-card__content">
-                      <div class="c-blog-card__tags-box">
-                        <a class="c-blog-card__tag" href="tag/life.html">
+                    <div className="c-blog-card__content">
+                      <div className="c-blog-card__tags-box">
+                        <a className="c-blog-card__tag" href="tag/life.html">
                           life
                         </a>
 
-                        <a class="c-blog-card__tag" href="tag/story.html">
+                        <a className="c-blog-card__tag" href="tag/story.html">
                           story
                         </a>
                       </div>
 
-                      <h2 class="c-blog-card__title">
+                      <h2 className="c-blog-card__title">
                         <a href="blog/do-what-you-can-with-what-you-have-where-you-are.html">
                           Do what you can, with what you have, where you are
                         </a>
                       </h2>
 
-                      <p class="c-blog-card__excerpt">
+                      <p className="c-blog-card__excerpt">
                         Bring to the table win-win survival strategies to ensure
                         proactive domination. At the end of the day, going
                         forward.
@@ -106,11 +113,11 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div class="c-blog-card col col-4 col-d-6 col-t-12">
-                  <div class="c-blog-card__inner">
-                    <div class="c-blog-card__image-wrap">
+                <div className="c-blog-card col col-4 col-d-6 col-t-12">
+                  <div className="c-blog-card__inner">
+                    <div className="c-blog-card__image-wrap">
                       <a
-                        class="c-blog-card__image"
+                        className="c-blog-card__image"
                         href="blog/strive-not-to-be-a-success-but-rather-to-be-of-value.html"
                       >
                         <img
@@ -122,24 +129,24 @@ const Projects = () => {
                       </a>
                     </div>
 
-                    <div class="c-blog-card__content">
-                      <div class="c-blog-card__tags-box">
-                        <a class="c-blog-card__tag" href="tag/life.html">
+                    <div className="c-blog-card__content">
+                      <div className="c-blog-card__tags-box">
+                        <a className="c-blog-card__tag" href="tag/life.html">
                           life
                         </a>
 
-                        <a class="c-blog-card__tag" href="tag/notes.html">
+                        <a className="c-blog-card__tag" href="tag/notes.html">
                           notes
                         </a>
                       </div>
 
-                      <h2 class="c-blog-card__title">
+                      <h2 className="c-blog-card__title">
                         <a href="blog/strive-not-to-be-a-success-but-rather-to-be-of-value.html">
                           Strive not to be a success, but rather to be of value
                         </a>
                       </h2>
 
-                      <p class="c-blog-card__excerpt">
+                      <p className="c-blog-card__excerpt">
                         Bring to the table win-win survival strategies to ensure
                         proactive domination. At the end of the day, going
                         forward.

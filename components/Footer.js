@@ -1,83 +1,64 @@
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col col-12">
-            <div class="social">
-              <ul class="social__list list-reset">
-                <li class="social__item">
+    <footer className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="col col-12">
+            <div className="social">
+              <ul className="social__list list-reset">
+                <li className="social__item">
                   <a
-                    aria-label="twitter icon"
-                    class="social__link"
-                    href="https://twitter.com/"
-                    rel="noopener"
+                    aria-label="instagram icon"
+                    className="social__link"
+                    href="https://instagram.com/"
+                    rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="ion ion-logo-twitter"></i>
+                    <i className="ion ion-logo-instagram"></i>
                   </a>
                 </li>
 
-                <li class="social__item">
+                <li className="social__item">
                   <a
                     aria-label="github icon"
-                    class="social__link"
-                    href="https://github.com/"
-                    rel="noopener"
+                    className="social__link"
+                    href="https://github.com"
+                    rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="ion ion-logo-github"></i>
-                  </a>
-                </li>
-
-                <li class="social__item">
-                  <a
-                    aria-label="pinterest icon"
-                    class="social__link"
-                    href="https://pinterest.com/"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    <i class="ion ion-logo-pinterest"></i>
-                  </a>
-                </li>
-
-                <li class="social__item">
-                  <a
-                    aria-label="youtube icon"
-                    class="social__link"
-                    href="https://youtube.com/"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    <i class="ion ion-logo-youtube"></i>
+                    <i className="ion ion-logo-github"></i>
                   </a>
                 </li>
               </ul>
             </div>
 
-            <ul class="footer_nav list-reset">
-              <li class="footer_nav__item">
-                <a class="footer_nav__link" href="index.html">
+            <ul className="footer_nav list-reset">
+              <li className="footer_nav__item">
+                <a className="footer_nav__link" href="">
                   Home
                 </a>
               </li>
 
-              <li class="footer_nav__item">
-                <a class="footer_nav__link" href="projects/index.html">
-                  Projects
+              <li className="footer_nav__item">
+                <a className="footer_nav__link" href="">
+                  Portfolio
                 </a>
               </li>
 
-              <li class="footer_nav__item">
-                <a class="footer_nav__link" href="about/index.html">
+              <li className="footer_nav__item">
+                <a className="footer_nav__link" href="">
+                  Blog
+                </a>
+              </li>
+
+              <li className="footer_nav__item">
+                <a className="footer_nav__link" href="">
                   About
                 </a>
               </li>
-
-              <li class="footer_nav__item">
-                <a class="footer_nav__link" href="blog/index.html">
-                  Blog
+              <li className="footer_nav__item">
+                <a className="footer_nav__link" href="">
+                  Contact
                 </a>
               </li>
             </ul>
