@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="contaniner__inner animate">
               <div className="section__info">
                 <div className="section__head">
-                  <h2 className="section__title">My Projects</h2>
+                  <h2 className="section__title">My Portfolio</h2>
                   <a className="section__link" href="blog.html">
                     View all{" "}
                     <i
@@ -29,43 +29,29 @@ const Projects = () => {
                 <div className="c-blog-card col col-4 col-d-6 col-t-12">
                   <div className="c-blog-card__inner">
                     <div className="c-blog-card__image-wrap">
-                      <a
-                        className="c-blog-card__image"
-                        href="blog/that-which-does-not-kill-us-makes-us-stronger.html"
-                      >
+                      <a className="c-blog-card__image" href="">
                         <img
-                          alt="That which does not kill us makes us stronger"
-                          data-cms-original-src="/images/post-1.jpg"
                           loading="lazy"
-                          src="images/post-1e6ba.jpg?_cchid=244c465237f65c19df0810b494cbfebf"
+                          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
                         />
                       </a>
                     </div>
 
                     <div className="c-blog-card__content">
                       <div className="c-blog-card__tags-box">
-                        <a className="c-blog-card__tag" href="tag/travel.html">
-                          travel
-                        </a>
+                        <a className="c-blog-card__tag">NextJS</a>
 
-                        <a
-                          className="c-blog-card__tag"
-                          href="tag/lifestyle.html"
-                        >
-                          lifestyle
-                        </a>
+                        <a className="c-blog-card__tag">Web</a>
                       </div>
 
                       <h2 className="c-blog-card__title">
-                        <a href="blog/that-which-does-not-kill-us-makes-us-stronger.html">
-                          That which does not kill us makes us stronger
-                        </a>
+                        <a href="">This Site :)</a>
                       </h2>
 
                       <p className="c-blog-card__excerpt">
-                        Bring to the table win-win survival strategies to ensure
-                        proactive domination. At the end of the day, going
-                        forward.
+                        This site combines a wide variety of tech, such as
+                        NextJS, the Twilio API, and more. Read to checkout my
+                        development process :)
                       </p>
                     </div>
                   </div>
@@ -74,40 +60,29 @@ const Projects = () => {
                 <div className="c-blog-card col col-4 col-d-6 col-t-12">
                   <div className="c-blog-card__inner">
                     <div className="c-blog-card__image-wrap">
-                      <a
-                        className="c-blog-card__image"
-                        href="blog/do-what-you-can-with-what-you-have-where-you-are.html"
-                      >
+                      <a className="c-blog-card__image" href="">
                         <img
-                          alt="Do what you can, with what you have, where you are"
-                          data-cms-original-src="/images/post-2.jpg"
                           loading="lazy"
-                          src="images/post-2dc98.jpg?_cchid=835eaaa1997fa78211cb91482513a9e8"
+                          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
                         />
                       </a>
                     </div>
 
                     <div className="c-blog-card__content">
                       <div className="c-blog-card__tags-box">
-                        <a className="c-blog-card__tag" href="tag/life.html">
-                          life
-                        </a>
+                        <a className="c-blog-card__tag">NextJS</a>
 
-                        <a className="c-blog-card__tag" href="tag/story.html">
-                          story
-                        </a>
+                        <a className="c-blog-card__tag">Web</a>
                       </div>
 
                       <h2 className="c-blog-card__title">
-                        <a href="blog/do-what-you-can-with-what-you-have-where-you-are.html">
-                          Do what you can, with what you have, where you are
-                        </a>
+                        <a href="">This Site :)</a>
                       </h2>
 
                       <p className="c-blog-card__excerpt">
-                        Bring to the table win-win survival strategies to ensure
-                        proactive domination. At the end of the day, going
-                        forward.
+                        This site combines a wide variety of tech, such as
+                        NextJS, the Twilio API, and more. Read to checkout my
+                        development process :)
                       </p>
                     </div>
                   </div>
@@ -116,40 +91,29 @@ const Projects = () => {
                 <div className="c-blog-card col col-4 col-d-6 col-t-12">
                   <div className="c-blog-card__inner">
                     <div className="c-blog-card__image-wrap">
-                      <a
-                        className="c-blog-card__image"
-                        href="blog/strive-not-to-be-a-success-but-rather-to-be-of-value.html"
-                      >
+                      <a className="c-blog-card__image" href="">
                         <img
-                          alt="Strive not to be a success, but rather to be of value"
-                          data-cms-original-src="/images/post-3.jpg"
                           loading="lazy"
-                          src="images/post-3518f.jpg?_cchid=9983d484ace4b8f310239f1d7065bca6"
+                          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
                         />
                       </a>
                     </div>
 
                     <div className="c-blog-card__content">
                       <div className="c-blog-card__tags-box">
-                        <a className="c-blog-card__tag" href="tag/life.html">
-                          life
-                        </a>
+                        <a className="c-blog-card__tag">NextJS</a>
 
-                        <a className="c-blog-card__tag" href="tag/notes.html">
-                          notes
-                        </a>
+                        <a className="c-blog-card__tag">Web</a>
                       </div>
 
                       <h2 className="c-blog-card__title">
-                        <a href="blog/strive-not-to-be-a-success-but-rather-to-be-of-value.html">
-                          Strive not to be a success, but rather to be of value
-                        </a>
+                        <a href="">This Site :)</a>
                       </h2>
 
                       <p className="c-blog-card__excerpt">
-                        Bring to the table win-win survival strategies to ensure
-                        proactive domination. At the end of the day, going
-                        forward.
+                        This site combines a wide variety of tech, such as
+                        NextJS, the Twilio API, and more. Read to checkout my
+                        development process :)
                       </p>
                     </div>
                   </div>
