@@ -8,8 +8,8 @@ const Hero = () => {
     init(textRef?.current, {
       backDelay: 1000,
       showCursor: true,
-      typeSpeed: 20,
-      strings: ["Jamie Davies"],
+      typeSpeed: 10,
+      strings: ["Jamie Davies", "test"],
       placeholder: true,
     });
   }, []);
