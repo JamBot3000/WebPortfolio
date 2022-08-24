@@ -25,11 +25,11 @@
 
 # Overview
 
-This is my in-progress online web portfolio, available [here](). This project was built using [Next.js](https://nextjs.org/), a framework that combines Node.JS and React.JS to enable the development of small or large scale applications
+This is my in-progress online web portfolio soon to be deployed via [Vercel](https://vercel.com/). This project was built using [Next.js](https://nextjs.org/), a framework that combines Node.JS and React.JS to enable the development of small or large scale applications
 
 # Reusing this project
 
-If you wish to use this project for your own purposes, click "use this template" at the top of this repository to generate your own repo with the exact same files and structure
+If you wish to use this project for your own purposes, click **[here](https://github.com/JamBot3000/WebPortfolio/generate)** to generate your own repo with the exact same files and structure
 
 Alternatively, just clone this repository and do as you please
 
