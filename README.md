@@ -25,7 +25,7 @@
 
 # Overview
 
-This is my in-progress online web portfolio, available [here](). This project was built using [Next.js](https://nextjs.org/), a framework that combines Node.JS and React.JS to enable the development of small or large scale applications
+This is my in-progress online web portfolio soon to be deployed via [Vercel](https://vercel.com/). This project was built using [Next.js](https://nextjs.org/), a framework that combines Node.JS and React.JS to enable the development of small or large scale applications
 
 # Reusing this project
 
