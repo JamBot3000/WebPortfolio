@@ -29,7 +29,7 @@ This is my in-progress online web portfolio soon to be deployed via [Vercel](htt
 
 # Reusing this project
 
-If you wish to use this project for your own purposes, click "use this template" at the top of this repository to generate your own repo with the exact same files and structure
+If you wish to use this project for your own purposes, click **[here](https://github.com/JamBot3000/WebPortfolio/generate)** to generate your own repo with the exact same files and structure
 
 Alternatively, just clone this repository and do as you please
 
