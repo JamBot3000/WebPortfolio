@@ -56,11 +56,6 @@ const Footer = () => {
                   About
                 </a>
               </li>
-              <li className="footer_nav__item">
-                <a className="footer_nav__link" href="">
-                  Contact
-                </a>
-              </li>
             </ul>
           </div>
         </div>

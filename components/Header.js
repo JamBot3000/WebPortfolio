@@ -52,12 +52,6 @@ const Header = () => {
                       About
                     </a>
                   </li>
-
-                  <li className="nav__item">
-                    <a className="nav__link" href="">
-                      Contact
-                    </a>
-                  </li>
                 </ul>
               </div>
 
