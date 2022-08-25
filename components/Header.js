@@ -1,8 +1,13 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Header = () => {
-  const [isActive, setIsActive] = useState(false);
+  //* to handle "active-link" class for links
+  const pathName = useRouter().pathname;
 
+  //* to handle mobile dropdown
+  const [isActive, setIsActive] = useState(false);
   const handleDropDown = (event) => {
     setIsActive((current) => !current);
   };
@@ -30,33 +35,59 @@ const Header = () => {
 
                 <ul className="nav__list list-reset">
                   <li className="nav__item">
-                    <a className="nav__link active-link" href="">
-                      Home
-                    </a>
+                    <Link href="/">
+                      <a
+                        className={
+                          pathName == "/" || pathName.includes("/#")
+                            ? "nav__link active-link"
+                            : "nav__link"
+                        }
+                      >
+                        Home
+                      </a>
+                    </Link>
                   </li>
 
                   <li className="nav__item">
-                    <a className="nav__link" href="">
-                      Portfolio
-                    </a>
+                    <Link href="/portfolio">
+                      <a
+                        className={
+                          pathName.includes("/portfolio")
+                            ? "nav__link active-link"
+                            : "nav__link"
+                        }
+                      >
+                        Portfolio
+                      </a>
+                    </Link>
                   </li>
 
                   <li className="nav__item">
-                    <a className="nav__link" href="">
-                      Blog
-                    </a>
+                    <Link href="/blog">
+                      <a
+                        className={
+                          pathName.includes("/blog")
+                            ? "nav__link active-link"
+                            : "nav__link"
+                        }
+                      >
+                        Blog
+                      </a>
+                    </Link>
                   </li>
 
                   <li className="nav__item">
-                    <a className="nav__link" href="">
-                      About
-                    </a>
-                  </li>
-
-                  <li className="nav__item">
-                    <a className="nav__link" href="">
-                      Contact
-                    </a>
+                    <Link href="/about">
+                      <a
+                        className={
+                          pathName.includes("/about")
+                            ? "nav__link active-link"
+                            : "nav__link"
+                        }
+                      >
+                        About
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -34,32 +36,27 @@ const Footer = () => {
 
             <ul className="footer_nav list-reset">
               <li className="footer_nav__item">
-                <a className="footer_nav__link" href="">
-                  Home
-                </a>
+                <Link href="/">
+                  <a className="footer_nav__link">Home</a>
+                </Link>
               </li>
 
               <li className="footer_nav__item">
-                <a className="footer_nav__link" href="">
-                  Portfolio
-                </a>
+                <Link href="/portfolio">
+                  <a className="footer_nav__link">Portfolio</a>
+                </Link>
               </li>
 
               <li className="footer_nav__item">
-                <a className="footer_nav__link" href="">
-                  Blog
-                </a>
+                <Link href="/blog">
+                  <a className="footer_nav__link">Blog</a>
+                </Link>
               </li>
 
               <li className="footer_nav__item">
-                <a className="footer_nav__link" href="">
-                  About
-                </a>
-              </li>
-              <li className="footer_nav__item">
-                <a className="footer_nav__link" href="">
-                  Contact
-                </a>
+                <Link href="/about">
+                  <a className="footer_nav__link">About</a>
+                </Link>
               </li>
             </ul>
           </div>
