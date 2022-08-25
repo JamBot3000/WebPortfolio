@@ -63,15 +63,31 @@ const Header = () => {
                   </li>
 
                   <li className="nav__item">
-                    <a className="nav__link" href="">
-                      Blog
-                    </a>
+                    <Link href="/blog">
+                      <a
+                        className={
+                          pathName.includes("/blog")
+                            ? "nav__link active-link"
+                            : "nav__link"
+                        }
+                      >
+                        Blog
+                      </a>
+                    </Link>
                   </li>
 
                   <li className="nav__item">
-                    <a className="nav__link" href="">
-                      About
-                    </a>
+                    <Link href="/about">
+                      <a
+                        className={
+                          pathName.includes("/about")
+                            ? "nav__link active-link"
+                            : "nav__link"
+                        }
+                      >
+                        About
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
