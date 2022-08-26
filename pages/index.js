@@ -1,4 +1,3 @@
-import ParticlesBackground from "../components/ParticlesBackground";
 import Hero from "../components/Home/Hero";
 import Projects from "../components/Home/Projects";
 import Contact from "../components/Home/Contact";
@@ -6,7 +5,6 @@ import Contact from "../components/Home/Contact";
 export default function Home() {
   return (
     <>
-      <ParticlesBackground />
       <Hero />
       <Projects />
       <Contact />
