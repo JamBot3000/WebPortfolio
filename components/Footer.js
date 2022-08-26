@@ -50,8 +50,10 @@ const Footer = () => {
               </li>
 
               <li className="footer_nav__item">
-                <Link href="/blog">
-                  <a className="footer_nav__link">Blog</a>
+                <Link href="https://jambot3000.github.io/">
+                  <a target="_blank" className="footer_nav__link">
+                    Blog
+                  </a>
                 </Link>
               </li>
 

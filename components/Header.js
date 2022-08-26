@@ -63,8 +63,9 @@ const Header = () => {
                   </li>
 
                   <li className="nav__item">
-                    <Link href="/blog">
+                    <Link href="https://jambot3000.github.io/">
                       <a
+                        target="_blank"
                         className={
                           pathName.includes("/blog")
                             ? "nav__link active-link"
