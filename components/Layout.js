@@ -1,6 +1,5 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import Top from "./Top";
 import Head from "next/head";
 import ParticlesBackground from "./ParticlesBackground";
 
@@ -22,7 +21,6 @@ const Layout = ({ children }) => {
 
       {children}
 
-      <Top />
       <Footer />
     </>
   );
