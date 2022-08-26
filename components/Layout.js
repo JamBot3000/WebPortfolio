@@ -2,6 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Top from "./Top";
 import Head from "next/head";
+import ParticlesBackground from "./ParticlesBackground";
 
 const Layout = ({ children }) => {
   return (
@@ -24,6 +25,8 @@ const Layout = ({ children }) => {
       </Head>
 
       <Header />
+
+      <ParticlesBackground />
 
       {children}
 
