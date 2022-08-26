@@ -1740,6 +1740,59 @@
     box-shadow: none;
   }
 }
+
+.c-page-heading {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 96px 0 60px;
+  text-align: center;
+}
+
+@media only all and (max-width: 1024px) {
+  .c-page-heading {
+    padding: 80px 0 60px;
+  }
+}
+@media only all and (max-width: 768px) {
+  .c-page-heading {
+    padding: 40px 0;
+  }
+}
+@media only all and (max-width: 576px) {
+  .c-page-heading {
+    padding: 30px 0;
+  }
+}
+@media all, bookshop {
+  .c-page-heading__title {
+    margin: 0;
+    font-size: 58px;
+    line-height: 1.12;
+  }
+}
+@media only all and (max-width: 768px) {
+  .c-page-heading__title {
+    font-size: 36px;
+  }
+}
+@media only all and (max-width: 576px) {
+  .c-page-heading__title {
+    font-size: 32px;
+  }
+}
+@media all, bookshop {
+  .c-page-heading__description {
+    margin: 30px auto 0;
+    max-width: 560px;
+    line-height: 1.6;
+  }
+}
+@media only all and (max-width: 576px) {
+  .c-page-heading__description {
+    margin: 24px auto 0;
+  }
+}
+
 @media all {
   .c-hero__title {
     margin-bottom: 20px;
