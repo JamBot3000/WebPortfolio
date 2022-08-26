@@ -831,7 +831,7 @@
 
 @media all {
   .pagination__inner {
-    margin: 40px 0 44px;
+    margin: 15px 0 44px;
   }
   .pagination__list {
     display: flex;
@@ -878,6 +878,10 @@
     margin-right: 2px;
     transition: 0.2s;
   }
+  .pagination__next {
+    color: black;
+  }
+
   .pagination__next:hover i {
     transform: translateX(1px);
   }
@@ -888,8 +892,8 @@
   .pagination__count {
     margin: 0 6px;
     font-size: 15px;
-    font-weight: 600;
-    color: rgba(17, 14, 56, 0.7);
+    font-weight: 200;
+    color: black;
   }
 }
 @media all {
@@ -1808,7 +1812,7 @@
 .c-page-heading {
   max-width: 780px;
   margin: 0 auto;
-  padding: 96px 0 60px;
+  padding: 40px 0 60px;
   text-align: center;
 }
 

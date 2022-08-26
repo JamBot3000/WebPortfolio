@@ -5,9 +5,8 @@ export default function Portfolio() {
         <div className="c-page-heading">
           <h1 className="c-page-heading__title">Software Portfolio</h1>
           <p className="c-page-heading__description">
-            A collection of my software related projects, all of which are open
-            source - feel free to re-use any of these projects or even
-            contribute to them :)
+            * Note that these aren't all of my projects, just a few I think are
+            worth talking about :)
           </p>
         </div>
       </div>
