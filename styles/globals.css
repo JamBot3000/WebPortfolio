@@ -828,6 +828,70 @@
     padding: 30px 10px;
   }
 }
+
+@media all {
+  .pagination__inner {
+    margin: 40px 0 44px;
+  }
+  .pagination__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagination__count,
+  .pagination__next,
+  .pagination__prev {
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 16px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+  }
+}
+@media only all and (max-width: 576px) {
+  .pagination__count,
+  .pagination__next,
+  .pagination__prev {
+    padding: 16px;
+  }
+}
+@media all {
+  .pagination__next,
+  .pagination__prev {
+    font-size: 14px;
+    will-change: transform;
+  }
+  .pagination__next.disabled,
+  .pagination__prev.disabled {
+    color: rgba(17, 14, 56, 0.4);
+  }
+  .pagination__next.disabled:hover i,
+  .pagination__prev.disabled:hover i {
+    transform: none;
+  }
+  .pagination__prev:hover i {
+    transform: translateX(-1px);
+  }
+  .pagination__prev i {
+    margin-right: 2px;
+    transition: 0.2s;
+  }
+  .pagination__next:hover i {
+    transform: translateX(1px);
+  }
+  .pagination__next i {
+    margin-left: 2px;
+    transition: 0.2s;
+  }
+  .pagination__count {
+    margin: 0 6px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(17, 14, 56, 0.7);
+  }
+}
 @media all {
   .logo__link {
     font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -1763,7 +1827,7 @@
     padding: 30px 0;
   }
 }
-@media all, bookshop {
+@media all {
   .c-page-heading__title {
     margin: 0;
     font-size: 58px;
@@ -1780,7 +1844,7 @@
     font-size: 32px;
   }
 }
-@media all, bookshop {
+@media all {
   .c-page-heading__description {
     margin: 30px auto 0;
     max-width: 560px;

@@ -108,6 +108,26 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+
+      <nav className="pagination">
+        <div className="container">
+          <div className="pagination__inner">
+            <div className="pagination__list">
+              <span className="pagination__prev disabled">
+                <i className="ion ion-ios-arrow-back"></i>
+                Prev
+              </span>
+
+              <div className="pagination__count">Page 1 of 1</div>
+
+              <a className="pagination__next">
+                Next
+                <i className="ion ion-ios-arrow-forward"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </>
   );
 }
