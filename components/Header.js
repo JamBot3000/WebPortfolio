@@ -18,10 +18,12 @@ const Header = () => {
         <div className="row">
           <div className="c-header__inner">
             <div className="logo">
-              <a className="logo__link" href="">
-                {" "}
-                JamBot 3000{" "}
-              </a>
+              <Link href="/">
+                <a className="logo__link" href="">
+                  {" "}
+                  JamBot 3000{" "}
+                </a>
+              </Link>
             </div>
 
             {/* for mobile add is-open class */}

@@ -1,3 +1,5 @@
+import Card from "../../components/Portfolio/Card";
+
 export default function Portfolio() {
   return (
     <>
@@ -5,106 +7,49 @@ export default function Portfolio() {
         <div className="c-page-heading">
           <h1 className="c-page-heading__title">Software Portfolio</h1>
           <p className="c-page-heading__description">
-            * Note that these aren't all of my projects, just a few I think are
-            worth talking about :)
+            * Note that these aren{"'"}t all of my projects, just a few I think
+            are worth talking about :)
           </p>
         </div>
       </div>
 
       <div className="container animate">
         <div className="row">
-          <div className="c-blog-card col col-4 col-d-6 col-t-12">
-            <div className="c-blog-card__inner">
-              <div className="c-blog-card__image-wrap">
-                <a className="c-blog-card__image" href="">
-                  <img
-                    loading="lazy"
-                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
-                  />
-                </a>
-              </div>
+          <Card
+            imageLink="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
+            postLink=""
+            title="This Site"
+            description="This site combines a wide variety of tech, such as NextJS, the Twilio API, and more. Read to checkout my development process :)"
+            tags={[
+              "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+              "https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white",
+              "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+            ]}
+          />
 
-              <div className="c-blog-card__content">
-                <div className="c-blog-card__tags-box">
-                  <a className="c-blog-card__tag">NextJS</a>
+          <Card
+            imageLink="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
+            postLink=""
+            title="This Site"
+            description="This site combines a wide variety of tech, such as NextJS, the Twilio API, and more. Read to checkout my development process :)"
+            tags={[
+              "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+              "https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white",
+              "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+            ]}
+          />
 
-                  <a className="c-blog-card__tag">Web</a>
-                </div>
-
-                <h2 className="c-blog-card__title">
-                  <a href="">This Site :)</a>
-                </h2>
-
-                <p className="c-blog-card__excerpt">
-                  This site combines a wide variety of tech, such as NextJS, the
-                  Twilio API, and more. Read to checkout my development process
-                  :)
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="c-blog-card col col-4 col-d-6 col-t-12">
-            <div className="c-blog-card__inner">
-              <div className="c-blog-card__image-wrap">
-                <a className="c-blog-card__image" href="">
-                  <img
-                    loading="lazy"
-                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
-                  />
-                </a>
-              </div>
-
-              <div className="c-blog-card__content">
-                <div className="c-blog-card__tags-box">
-                  <a className="c-blog-card__tag">NextJS</a>
-
-                  <a className="c-blog-card__tag">Web</a>
-                </div>
-
-                <h2 className="c-blog-card__title">
-                  <a href="">This Site :)</a>
-                </h2>
-
-                <p className="c-blog-card__excerpt">
-                  This site combines a wide variety of tech, such as NextJS, the
-                  Twilio API, and more. Read to checkout my development process
-                  :)
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="c-blog-card col col-4 col-d-6 col-t-12">
-            <div className="c-blog-card__inner">
-              <div className="c-blog-card__image-wrap">
-                <a className="c-blog-card__image" href="">
-                  <img
-                    loading="lazy"
-                    src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
-                  />
-                </a>
-              </div>
-
-              <div className="c-blog-card__content">
-                <div className="c-blog-card__tags-box">
-                  <a className="c-blog-card__tag">NextJS</a>
-
-                  <a className="c-blog-card__tag">Web</a>
-                </div>
-
-                <h2 className="c-blog-card__title">
-                  <a href="">This Site :)</a>
-                </h2>
-
-                <p className="c-blog-card__excerpt">
-                  This site combines a wide variety of tech, such as NextJS, the
-                  Twilio API, and more. Read to checkout my development process
-                  :)
-                </p>
-              </div>
-            </div>
-          </div>
+          <Card
+            imageLink="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
+            postLink=""
+            title="This Site"
+            description="This site combines a wide variety of tech, such as NextJS, the Twilio API, and more. Read to checkout my development process :)"
+            tags={[
+              "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+              "https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white",
+              "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+            ]}
+          />
         </div>
       </div>
 
