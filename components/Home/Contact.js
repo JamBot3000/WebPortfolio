@@ -21,18 +21,31 @@ const Contact = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: senderName,
-          email: senderEmail,
-          message: senderMessage,
+          name: "jamie",
+          email: "jamie@a.o",
+          message: "its a me",
         }),
-      });
+      })
+        .then((response) => response.json())
+        .then((json) => {
+          if (json.text != "Email Sent") {
+            alert("Unable to send message at this time");
 
-      //! change this so that this only happens if ths server returns an affirmative response
-      alert("Message sent :)");
+            setName("");
+            setEmail("");
+            setMessage("");
 
-      setName("");
-      setEmail("");
-      setMessage("");
+            return;
+          }
+
+          alert("Message Sent :)");
+
+          setName("");
+          setEmail("");
+          setMessage("");
+
+          return;
+        });
     }
   }
 
