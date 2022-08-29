@@ -6,9 +6,6 @@ const Contact = () => {
   const [senderMessage, setMessage] = useState("");
 
   function handleSubmit() {
-    //* make a request to /contact with the supplied information
-    //* api route will verify data is okay and send via mailgun
-
     let regExp =
       /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
