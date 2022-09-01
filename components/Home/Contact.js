@@ -18,9 +18,9 @@ const Contact = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: "jamie",
-          email: "jamie@a.o",
-          message: "its a me",
+          name: senderName,
+          email: senderEmail,
+          message: senderMessage,
         }),
       })
         .then((response) => response.json())
