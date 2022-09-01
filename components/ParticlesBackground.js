@@ -56,7 +56,7 @@ export default function ParticlesBackground() {
             color: "#fff",
             distance: 250,
             enable: true,
-            opacity: 0.6,
+            opacity: 0.4,
             width: 2,
           },
           collisions: {

@@ -14,11 +14,9 @@ const Card = ({ imageLink, postLink, title, description, tags }) => {
     <div className="c-blog-card col col-4 col-d-6 col-t-12">
       <Link href={postLink}>
         <div className="c-blog-card__inner">
-          <div className="c-blog-card__image-wrap">
-            <a className="c-blog-card__image">
-              <img loading="lazy" src={imageLink} />
-            </a>
-          </div>
+          <a className="c-blog-card__image">
+            <img loading="lazy" src={imageLink} />
+          </a>
 
           <div className="c-blog-card__content">
             {tagBoxes.map((box) => (
