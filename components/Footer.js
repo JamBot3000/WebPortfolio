@@ -9,27 +9,29 @@ const Footer = () => {
             <div className="social">
               <ul className="social__list list-reset">
                 <li className="social__item">
-                  <a
-                    aria-label="instagram icon"
-                    className="social__link"
-                    href="https://instagram.com/"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="ion ion-logo-instagram"></i>
-                  </a>
+                  <Link href="https://instagram.com/jamie_on_drums">
+                    <a
+                      aria-label="instagram icon"
+                      className="social__link"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <i className="ion ion-logo-instagram"></i>
+                    </a>
+                  </Link>
                 </li>
 
                 <li className="social__item">
-                  <a
-                    aria-label="github icon"
-                    className="social__link"
-                    href="https://github.com"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <i className="ion ion-logo-github"></i>
-                  </a>
+                  <Link href="https://github.com/JamBot3000">
+                    <a
+                      aria-label="github icon"
+                      className="social__link"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <i className="ion ion-logo-github"></i>
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -48,8 +50,10 @@ const Footer = () => {
               </li>
 
               <li className="footer_nav__item">
-                <Link href="/blog">
-                  <a className="footer_nav__link">Blog</a>
+                <Link href="https://jambot3000.github.io/">
+                  <a target="_blank" className="footer_nav__link">
+                    Blog
+                  </a>
                 </Link>
               </li>
 

@@ -1,4 +1,51 @@
+import { useState } from "react";
+
 const Contact = () => {
+  const [senderName, setName] = useState("");
+  const [senderEmail, setEmail] = useState("");
+  const [senderMessage, setMessage] = useState("");
+
+  function handleSubmit() {
+    let regExp =
+      /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!senderName || !regExp.test(senderEmail) || !senderMessage) {
+      alert("all fields must be present & a valid email is required");
+    } else {
+      fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: senderName,
+          email: senderEmail,
+          message: senderMessage,
+        }),
+      })
+        .then((response) => response.json())
+        .then((json) => {
+          if (json.text != "Email Sent") {
+            alert("Unable to send message at this time");
+
+            setName("");
+            setEmail("");
+            setMessage("");
+
+            return;
+          }
+
+          alert("Message Sent :)");
+
+          setName("");
+          setEmail("");
+          setMessage("");
+
+          return;
+        });
+    }
+  }
+
   return (
     <div className="c-contact-form" id="contact">
       <div className="container">
@@ -11,7 +58,7 @@ const Contact = () => {
                   Feel free to contact me for any reason
                 </p>
               </div>
-              <form action="#" className="c-contact-form__form" method="POST">
+              <div className="c-contact-form__form">
                 <div className="c-contact-form__form-group">
                   <label
                     className="c-contact-form__form-label screen-reader-text"
@@ -21,11 +68,14 @@ const Contact = () => {
                   </label>
                   <input
                     className="c-contact-form__form-input"
-                    id="form-name"
                     name="name"
                     placeholder="Your name..."
-                    required=""
+                    required
                     type="text"
+                    value={senderName}
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
                   />
                 </div>
                 <div className="c-contact-form__form-group">
@@ -40,8 +90,11 @@ const Contact = () => {
                     id="form-email"
                     name="_replyto"
                     placeholder="Your email..."
-                    required=""
                     type="email"
+                    value={senderEmail}
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                    }}
                   />
                 </div>
                 <div className="c-contact-form__form-group">
@@ -52,28 +105,26 @@ const Contact = () => {
                     Your Message
                   </label>
                   <textarea
+                    required
                     className="c-contact-form__form-input"
-                    id="form-text"
                     name="text"
                     placeholder="Your message..."
-                    required=""
                     rows="9"
+                    value={senderMessage}
+                    onChange={(e) => {
+                      setMessage(e.target.value);
+                    }}
                   ></textarea>
                 </div>
                 <div className="c-contact-form__form-group c-contact-form__form-group--button">
                   <button
                     className="c-button c-button--contact c-button--large"
-                    type="submit"
+                    onClick={handleSubmit}
                   >
                     Send now
                   </button>
                 </div>
-                <input
-                  name="_encrypted_details"
-                  type="hidden"
-                  value="ccdd41932fb80db17a04fbad0cc2ba2d93ebc5eac1cc4af0907cd96b"
-                />
-              </form>
+              </div>
             </div>
           </div>
         </div>

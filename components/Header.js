@@ -18,10 +18,12 @@ const Header = () => {
         <div className="row">
           <div className="c-header__inner">
             <div className="logo">
-              <a className="logo__link" href="">
-                {" "}
-                JamBot 3000{" "}
-              </a>
+              <Link href="/">
+                <a className="logo__link" href="">
+                  {" "}
+                  JamBot 3000{" "}
+                </a>
+              </Link>
             </div>
 
             {/* for mobile add is-open class */}
@@ -63,8 +65,9 @@ const Header = () => {
                   </li>
 
                   <li className="nav__item">
-                    <Link href="/blog">
+                    <Link href="https://jambot3000.github.io/">
                       <a
+                        target="_blank"
                         className={
                           pathName.includes("/blog")
                             ? "nav__link active-link"
@@ -95,27 +98,29 @@ const Header = () => {
               <div className="social">
                 <ul className="social__list list-reset">
                   <li className="social__item">
-                    <a
-                      aria-label="instagram icon"
-                      className="social__link"
-                      href="https://instagram.com/"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      <i className="ion ion-logo-instagram"></i>
-                    </a>
+                    <Link href="https://instagram.com/jamie_on_drums">
+                      <a
+                        aria-label="instagram icon"
+                        className="social__link"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <i className="ion ion-logo-instagram"></i>
+                      </a>
+                    </Link>
                   </li>
 
                   <li className="social__item">
-                    <a
-                      aria-label="github icon"
-                      className="social__link"
-                      href="https://github.com"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      <i className="ion ion-logo-github"></i>
-                    </a>
+                    <Link href="https://github.com/JamBot3000">
+                      <a
+                        aria-label="github icon"
+                        className="social__link"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <i className="ion ion-logo-github"></i>
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
