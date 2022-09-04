@@ -15,7 +15,7 @@ const Card = ({ imageLink, postLink, title, description, tags }) => {
       <Link href={postLink}>
         <div className="c-blog-card__inner">
           <a className="c-blog-card__image">
-            <img loading="lazy" src={imageLink} />
+            <Image loading="lazy" src={imageLink} />
           </a>
 
           <div className="c-blog-card__content">
