@@ -32,23 +32,3 @@ This is my in-progress online web portfolio soon to be deployed via [Vercel](htt
 If you wish to use this project for your own purposes, click **[here](https://github.com/JamBot3000/WebPortfolio/generate)** to generate your own repo with the exact same files and structure
 
 Alternatively, just clone this repository and do as you please
-
-## Getting Started
-
-First, install the necessary dependancies:
-
-```bash
-npm install
-# or
-yarn install
-```
-
-Next, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the build with live reloading

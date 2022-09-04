@@ -15,7 +15,7 @@ const Card = ({ imageLink, postLink, title, description, tags }) => {
       <Link href={postLink}>
         <div className="c-blog-card__inner">
           <a className="c-blog-card__image">
-            <img loading="lazy" src={imageLink} />
+            <Image loading="lazy" src={imageLink} alt="" />
           </a>
 
           <div className="c-blog-card__content">
@@ -23,7 +23,7 @@ const Card = ({ imageLink, postLink, title, description, tags }) => {
               <div className="c-blog-card__tags-box" key={box}>
                 {box.map((tag) => (
                   <a className="c-blog-card__tag" key={tag}>
-                    <Image height="35px" width="110px" src={tag}></Image>
+                    <Image height="35px" width="110px" alt="" src={tag}></Image>
                   </a>
                 ))}
               </div>
