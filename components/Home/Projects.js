@@ -23,9 +23,11 @@ const Projects = () => {
                 </div>
                 <div className="section__description">
                   <p>
-                    A colletion of some of my software related projects. All of
-                    these projects are <strong>open source</strong>, so feel
-                    free to check them out and maybe even contribute
+                    A colletion of some of my software related projects.{" "}
+                    <span>This site is still in progress</span> however I intend
+                    to create posts for each of these projects and more, that
+                    detail the tech stack chosen and any problems/note-worthy
+                    occurances
                   </p>
                 </div>
               </div>
@@ -35,7 +37,7 @@ const Projects = () => {
                   imageLink="/projects/portfolio.png"
                   postLink=""
                   title="This Site"
-                  description="This site combines a wide variety of tech, such as NextJS, the Twilio API, and more. Read to checkout my development process :)"
+                  description="This project has been an excellent learning experience for me - being my first live Next.JS project that makes use of Vercel, and multiple external APIs"
                   tags={[
                     "/projects/tags/next.svg",
                     "/projects/tags/vercel.svg",
@@ -55,14 +57,11 @@ const Projects = () => {
                 />
 
                 <Card
-                  imageLink="/projects/blog.png"
+                  imageLink="/projects/discord-bot.jpg"
                   postLink=""
-                  title="Personal Blog"
-                  description="This github-pages site was made using the static site generator jekyll - it allows for markdown to HTML conversion resulting in a pleasant creator experience."
-                  tags={[
-                    "/projects/tags/jekyll.svg",
-                    "/projects/tags/ruby.svg",
-                  ]}
+                  title="Community Discord Bot"
+                  description="I contributed features to this open source project including reddit API integrations & UKMT Challenge features"
+                  tags={["/projects/tags/python.svg"]}
                 />
               </div>
             </div>
