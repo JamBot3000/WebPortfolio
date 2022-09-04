@@ -54,7 +54,7 @@ const Projects = () => {
                   ]}
                 />
                 <Card
-                  imageLink="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg"
+                  imageLink="/projects/portfolio.png"
                   postLink=""
                   title="This Site"
                   description="This site combines a wide variety of tech, such as NextJS, the Twilio API, and more. Read to checkout my development process :)"
