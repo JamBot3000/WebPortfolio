@@ -19,7 +19,7 @@ export default function Portfolio() {
             imageLink="/projects/portfolio.png"
             postLink=""
             title="This Site"
-            description="This site combines a wide variety of tech, such as NextJS, the Twilio API, and more. Read to checkout my development process :)"
+            description="This project has been an excellent learning experience for me - being my first live Next.JS project that makes use of Vercel, and multiple external APIs"
             tags={[
               "/projects/tags/next.svg",
               "/projects/tags/vercel.svg",
@@ -36,11 +36,11 @@ export default function Portfolio() {
           />
 
           <Card
-            imageLink="/projects/blog.png"
+            imageLink="/projects/discord-bot.jpg"
             postLink=""
-            title="Personal Blog"
-            description="This github-pages site was made using the static site generator jekyll - it allows for markdown to HTML conversion resulting in a pleasant creator experience."
-            tags={["/projects/tags/jekyll.svg", "/projects/tags/ruby.svg"]}
+            title="Community Discord Bot"
+            description="I contributed features to this open source project including reddit API integrations & UKMT Challenge features"
+            tags={["/projects/tags/python.svg"]}
           />
         </div>
       </div>
