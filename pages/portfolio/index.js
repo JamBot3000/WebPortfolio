@@ -21,7 +21,7 @@ export default function Portfolio() {
             title="This Site"
             description="This site combines a wide variety of tech, such as NextJS, the Twilio API, and more. Read to checkout my development process :)"
             tags={[
-              "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+              "/projects/tags/next.svg",
               "https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white",
               "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
             ]}
@@ -62,7 +62,7 @@ export default function Portfolio() {
 
               <div className="pagination__count">Page 1 of 1</div>
 
-              <a className="pagination__next">
+              <a className="pagination__next disabled">
                 Next
                 <i className="ion ion-ios-arrow-forward"></i>
               </a>
