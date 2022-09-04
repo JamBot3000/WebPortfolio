@@ -25,10 +25,24 @@
 
 # Overview
 
-This is my in-progress online web portfolio soon to be deployed via [Vercel](https://vercel.com/). This project was built using [Next.js](https://nextjs.org/), a framework that combines Node.JS and React.JS to enable the development of small or large scale applications
+This is my in-progress online web portfolio deployed/managed via [Vercel](https://vercel.com/). This project was built using the react framework [Next.js](https://nextjs.org/). The contact form utilizes the [MailGun](https://www.mailgun.com/) API as part of the [Github Student Developer Pack](https://education.github.com/pack).
 
 # Reusing this project
 
-If you wish to use this project for your own purposes, click **[here](https://github.com/JamBot3000/WebPortfolio/generate)** to generate your own repo with the exact same files and structure
+If you wish to use this project for your own purposes, click **[here](https://github.com/JamBot3000/WebPortfolio/generate)** to generate your own repo with the exact same files and structure.
 
-Alternatively, just clone this repository and do as you please
+## Important Steps
+
+- Install the JS packages: `yarn install`/`npm install` _(Ensure you are using node v12 or higher)_
+- Create a mailgun account then generate your API key and Domain
+- Create a `.env.local` file at the root of the project formatted like so:
+
+```
+MAILGUN_API_KEY=1234567890
+MAILGUN_DOMAIN=sandbox1234567890.mailgun.org
+MAILGUN_EMAIL=youremail@domain.com
+```
+
+<br>
+
+From there all you need to do is `yarn dev` to run the project - for help deploying using vercel, check out [this](https://vercel.com/docs/concepts/deployments/overview)
