@@ -20,9 +20,9 @@ const Card = ({ imageLink, postLink, title, description, tags }) => {
 
           <div className="c-blog-card__content">
             {tagBoxes.map((box) => (
-              <div className="c-blog-card__tags-box">
+              <div className="c-blog-card__tags-box" key={box}>
                 {box.map((tag) => (
-                  <a className="c-blog-card__tag">
+                  <a className="c-blog-card__tag" key={tag}>
                     <Image height="35px" width="110px" src={tag}></Image>
                   </a>
                 ))}
